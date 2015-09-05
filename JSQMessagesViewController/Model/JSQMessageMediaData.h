@@ -78,4 +78,10 @@
  */
 - (NSUInteger)mediaHash;
 
+/*
+ * distingurish if the message is of outgoing or incoming
+ */
+- (void)setAppliesMediaViewMaskAsOutgoing:(BOOL)appliesMediaViewMaskAsOutgoing;
+
+
 @end
